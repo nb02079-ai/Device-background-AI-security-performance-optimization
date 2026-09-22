@@ -1,0 +1,35 @@
+{
+  "n_estimators": 20,
+  "step2": [
+    {
+      "msl": 2,
+      "conf_gap": 0.012836244131737229,
+      "val_MCC": 0.8328748780616784
+    },
+    {
+      "msl": 5,
+      "conf_gap": 0.008651646306523708,
+      "val_MCC": 0.8217212663366594
+    },
+    {
+      "msl": 10,
+      "conf_gap": 0.004757694940560997,
+      "val_MCC": 0.807244215860883
+    }
+  ],
+  "min_samples_leaf": 10,
+  "step3": [
+    {
+      "decimals": 1,
+      "mia_auc_adv_sel": 0.5222957902162687,
+      "val_MCC": 0.8044674618630814
+    },
+    {
+      "decimals": 2,
+      "mia_auc_adv_sel": 0.5229346789452756,
+      "val_MCC": 0.8063514471926058
+    }
+  ],
+  "decimals": 1,
+  "mia_split_integrity": true
+}

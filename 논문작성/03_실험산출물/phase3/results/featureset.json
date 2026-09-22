@@ -1,0 +1,58 @@
+{
+  "features_all": [
+    "file_create",
+    "image_load",
+    "net_connect",
+    "process_create",
+    "process_term",
+    "reg_create_key",
+    "reg_delete_key",
+    "reg_delete_value",
+    "reg_write",
+    "n_events",
+    "duration_s",
+    "n_uniq_child",
+    "n_uniq_parent",
+    "n_uniq_cguid"
+  ],
+  "dropped_dup": [
+    "n_uniq_child",
+    "n_uniq_cguid"
+  ],
+  "dup_pairs": [
+    [
+      "n_events",
+      "n_uniq_child",
+      0.9829
+    ],
+    [
+      "n_events",
+      "n_uniq_cguid",
+      1.0
+    ]
+  ],
+  "features_final": [
+    "file_create",
+    "image_load",
+    "net_connect",
+    "process_create",
+    "process_term",
+    "reg_create_key",
+    "reg_delete_key",
+    "reg_delete_value",
+    "reg_write",
+    "n_events",
+    "duration_s",
+    "n_uniq_parent"
+  ],
+  "seal_hashes": {
+    "H5_Test": "47254fd15bb1f192",
+    "official_Test": "c63d8ca03e7a4480"
+  },
+  "split": {
+    "train": 24000,
+    "val": 8000,
+    "h5_test": 8000,
+    "official_test": 24747
+  }
+}

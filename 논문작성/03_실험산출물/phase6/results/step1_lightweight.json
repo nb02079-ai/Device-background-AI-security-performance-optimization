@@ -1,0 +1,119 @@
+{
+  "baseline": {
+    "MCC": 0.8245659264485233,
+    "FPR": 0.08145,
+    "lat_ms": 1.7378805599998515
+  },
+  "candidates": [
+    {
+      "n_estimators": 20,
+      "MCC": 0.8186015668251972,
+      "FPR": 0.09,
+      "lat_ms": 0.11809392999992951,
+      "lat_reduction": 0.932047154034602,
+      "dMCC": -0.005964359623326088,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 29,
+      "MCC": 0.8213361949132295,
+      "FPR": 0.08225,
+      "lat_ms": 0.1658602999995651,
+      "lat_reduction": 0.9045617381210713,
+      "dMCC": -0.0032297315352938227,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 38,
+      "MCC": 0.8206288968495125,
+      "FPR": 0.08554999999999999,
+      "lat_ms": 0.21341162999988228,
+      "lat_reduction": 0.8772000591341557,
+      "dMCC": -0.003937029599010877,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 47,
+      "MCC": 0.8225188683667817,
+      "FPR": 0.0824,
+      "lat_ms": 0.26117151999997645,
+      "lat_reduction": 0.8497183719000811,
+      "dMCC": -0.0020470580817416595,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 56,
+      "MCC": 0.8224354570982033,
+      "FPR": 0.08425,
+      "lat_ms": 0.3064744500001382,
+      "lat_reduction": 0.8236504527099582,
+      "dMCC": -0.002130469350320019,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 64,
+      "MCC": 0.8224422116168671,
+      "FPR": 0.08380000000000001,
+      "lat_ms": 0.3512262499999963,
+      "lat_reduction": 0.7978996611826843,
+      "dMCC": -0.002123714831656187,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 73,
+      "MCC": 0.8232224582936754,
+      "FPR": 0.08185,
+      "lat_ms": 0.40098810999992907,
+      "lat_reduction": 0.7692660133099346,
+      "dMCC": -0.001343468154847982,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 82,
+      "MCC": 0.8228460615081371,
+      "FPR": 0.08335000000000001,
+      "lat_ms": 0.4443678600000567,
+      "lat_reduction": 0.7443047179260152,
+      "dMCC": -0.0017198649403862287,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 91,
+      "MCC": 0.8235174432467641,
+      "FPR": 0.08195,
+      "lat_ms": 0.4940173599996456,
+      "lat_reduction": 0.7157357235184864,
+      "dMCC": -0.0010484832017592094,
+      "pass_allowance": true,
+      "success": true
+    },
+    {
+      "n_estimators": 100,
+      "MCC": 0.8235521445976965,
+      "FPR": 0.08270000000000001,
+      "lat_ms": 0.5373884499999804,
+      "lat_reduction": 0.6907794112156785,
+      "dMCC": -0.0010137818508267893,
+      "pass_allowance": true,
+      "success": true
+    }
+  ],
+  "chosen": {
+    "n_estimators": 20,
+    "MCC": 0.8186015668251972,
+    "FPR": 0.09,
+    "lat_ms": 0.11809392999992951,
+    "lat_reduction": 0.932047154034602,
+    "dMCC": -0.005964359623326088,
+    "pass_allowance": true,
+    "success": true
+  }
+}

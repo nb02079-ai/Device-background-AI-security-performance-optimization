@@ -1,0 +1,130 @@
+{
+  "A_RF": {
+    "10": {
+      "infer_ms_mean": 12.209274149999061,
+      "infer_ms_std": 1.0250511950134598,
+      "infer_ms_per_sample": 1.220927414999906,
+      "pre_ms_mean": 0.00018760000131123888,
+      "pre_ms_per_sample": 1.876000013112389e-05,
+      "throughput_per_s": 819.0495091799351,
+      "tracemalloc_peak_kb": 15.720703125,
+      "rss_delta_kb": 0.0
+    },
+    "100": {
+      "infer_ms_mean": 17.40919390000286,
+      "infer_ms_std": 1.3806617985940077,
+      "infer_ms_per_sample": 0.17409193900002862,
+      "pre_ms_mean": 0.00015005000051360184,
+      "pre_ms_per_sample": 1.5005000051360184e-06,
+      "throughput_per_s": 5744.091344745351,
+      "tracemalloc_peak_kb": 23.455078125,
+      "rss_delta_kb": 0.0
+    },
+    "1000": {
+      "infer_ms_mean": 44.05073660000056,
+      "infer_ms_std": 1.816717935090368,
+      "infer_ms_per_sample": 0.04405073660000056,
+      "pre_ms_mean": 0.00014840000019944455,
+      "pre_ms_per_sample": 1.4840000019944455e-07,
+      "throughput_per_s": 22701.09599029922,
+      "tracemalloc_peak_kb": 100.84375,
+      "rss_delta_kb": 0.0
+    }
+  },
+  "B_RF_BO": {
+    "10": {
+      "infer_ms_mean": 2.183866549999891,
+      "infer_ms_std": 0.0929103545512731,
+      "infer_ms_per_sample": 0.2183866549999891,
+      "pre_ms_mean": 0.00013599999917346395,
+      "pre_ms_per_sample": 1.3599999917346395e-05,
+      "throughput_per_s": 4579.034373689408,
+      "tracemalloc_peak_kb": 13.658203125,
+      "rss_delta_kb": 0.0
+    },
+    "100": {
+      "infer_ms_mean": 2.930903149999864,
+      "infer_ms_std": 0.10197297121901727,
+      "infer_ms_per_sample": 0.02930903149999864,
+      "pre_ms_mean": 0.0001431500010085074,
+      "pre_ms_per_sample": 1.4315000100850739e-06,
+      "throughput_per_s": 34119.17585881493,
+      "tracemalloc_peak_kb": 21.439453125,
+      "rss_delta_kb": 0.0
+    },
+    "1000": {
+      "infer_ms_mean": 7.653726650000436,
+      "infer_ms_std": 0.29428090349523733,
+      "infer_ms_per_sample": 0.007653726650000437,
+      "pre_ms_mean": 0.00015980000043214204,
+      "pre_ms_per_sample": 1.5980000043214204e-07,
+      "throughput_per_s": 130655.30632713973,
+      "tracemalloc_peak_kb": 98.736328125,
+      "rss_delta_kb": 0.0
+    }
+  },
+  "D_MLP": {
+    "10": {
+      "infer_ms_mean": 0.04522469999983514,
+      "infer_ms_std": 0.00881492290921797,
+      "infer_ms_per_sample": 0.004522469999983514,
+      "pre_ms_mean": 0.04692030000157388,
+      "pre_ms_per_sample": 0.004692030000157388,
+      "throughput_per_s": 221118.1058146644,
+      "tracemalloc_peak_kb": 17.16015625,
+      "rss_delta_kb": 0.0
+    },
+    "100": {
+      "infer_ms_mean": 0.053341600001033385,
+      "infer_ms_std": 0.006592889909264675,
+      "infer_ms_per_sample": 0.0005334160000103338,
+      "pre_ms_mean": 0.045335699999782264,
+      "pre_ms_per_sample": 0.00045335699999782264,
+      "throughput_per_s": 1874709.420003575,
+      "tracemalloc_peak_kb": 142.94140625,
+      "rss_delta_kb": 0.0
+    },
+    "1000": {
+      "infer_ms_mean": 0.17725295000019514,
+      "infer_ms_std": 0.010564006618356783,
+      "infer_ms_per_sample": 0.00017725295000019513,
+      "pre_ms_mean": 0.06887795000025676,
+      "pre_ms_per_sample": 6.887795000025676e-05,
+      "throughput_per_s": 5641655.047201748,
+      "tracemalloc_peak_kb": 846.06640625,
+      "rss_delta_kb": 0.0
+    }
+  },
+  "C_STACK": {
+    "10": {
+      "infer_ms_mean": 7.243134400000173,
+      "infer_ms_std": 0.16240314118128216,
+      "infer_ms_per_sample": 0.7243134400000173,
+      "pre_ms_mean": 0.00013704999943797702,
+      "pre_ms_per_sample": 1.3704999943797702e-05,
+      "throughput_per_s": 1380.6177612829829,
+      "tracemalloc_peak_kb": 28.7216796875,
+      "rss_delta_kb": 0.0
+    },
+    "100": {
+      "infer_ms_mean": 10.660846250000588,
+      "infer_ms_std": 0.8020154289766231,
+      "infer_ms_per_sample": 0.10660846250000588,
+      "pre_ms_mean": 0.00015619999942373397,
+      "pre_ms_per_sample": 1.5619999942373397e-06,
+      "throughput_per_s": 9380.118393508816,
+      "tracemalloc_peak_kb": 39.359375,
+      "rss_delta_kb": 0.0
+    },
+    "1000": {
+      "infer_ms_mean": 28.402338850003872,
+      "infer_ms_std": 1.4941392497241937,
+      "infer_ms_per_sample": 0.028402338850003872,
+      "pre_ms_mean": 0.00013384999917320783,
+      "pre_ms_per_sample": 1.3384999917320783e-07,
+      "throughput_per_s": 35208.36806014881,
+      "tracemalloc_peak_kb": 144.6435546875,
+      "rss_delta_kb": 0.0
+    }
+  }
+}
